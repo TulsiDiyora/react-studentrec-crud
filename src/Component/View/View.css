@@ -1,0 +1,102 @@
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+h1 {
+    font-family: 'Comfortaa', cursive; 
+    color: #6ec1e4; 
+    font-size: 2.5rem;
+    text-align: center;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+}
+
+.no-data {
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.cute-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    background-color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cute-table thead {
+    background-color: #f3faff;
+    color: #6ec1e4;
+}
+
+.cute-table th, .cute-table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #e1eaff;
+}
+
+.cute-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.cute-table tbody tr:hover {
+    background-color: #e1eaff;
+}
+
+.btn-primary, .btn-danger {
+    border-radius: 12px;
+    padding: 8px 12px;
+    margin: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary {
+    background-color: #6ec1e4;
+    border: none;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background-color: #5ab0d8;
+}
+
+.btn-danger {
+    background-color: #ff6f61;
+    border: none;
+    color: #fff;
+}
+
+.btn-danger:hover {
+    background-color: #e65c50;
+}
+.btn-1 {
+    background-color: #87cefa; 
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    margin-top: 50px;
+}
+
+.btn-1:hover {
+    background-color: #67b5e5; 
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+.dropdown-item-text{
+    cursor: pointer;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.dropdown-item-text:hover {
+    background-color: #e1eaff; 
+}
